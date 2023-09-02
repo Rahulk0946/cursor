@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Merienda:wght@400;500&family=Nunito:wght@200;300;400;500;600&family=Pathway+Extreme:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;1,100&family=Ysabeau:ital,wght@0,100;1,1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-brand img{
+    width: 100%;
+    height: 60px;
+}
+
+.navContainer{
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+}
+
+.masterheader-container{
+    background-color: white;
+    background-image: linear-gradient(rgba(153, 86, 100, 0.425), rgba(0, 0, 0, 0)), url(./imagesh/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.custom-btn{
+    background-color: #be9c79;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+.custom-btn:hover{
+    background-color: #be9b7963;
+}
+
+.home{
+    overflow: hidden;
+}
+
+.home .btn{
+    background-color: #be9c79;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.home .btn:hover{
+    background-color:#be9b7963 ;
+}
+
+.card-group .card{
+    border: 0px;
+    overflow: hidden;
+}
+
+.menu-body{
+    overflow: hidden;
+}
+
+.gallery .row img{
+    width: 100%;
+    padding: 10px;
+}
+.our-team .row img{
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-us .row form{
+    flex: 1 1 20rem;
+    border:  2px solid #333; 
+    padding: 2rem;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.contact-us .row form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.contact-us .row form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: .8rem;
+    color:#333;
+    border: 2px solid #333;
+    margin: 1rem 0;
+}
+
+.contact-us .row form .btn{
+    background-color: #be9c79;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.footer .row i {
+    font-size: 30px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #be9c79;
+    color: #fff;
+    margin-bottom: .5rem;
+
+}
+
+.row-footer{
+    border-top: 1px solid;
+    
+}
